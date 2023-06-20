@@ -16,4 +16,10 @@ public class User {
     private String name;
     private String phone;
     List<Contact> contacts = new ArrayList<>();
+
+    public User(long userID, String name, String phone) {
+        this.userID = userID;
+        this.name = name;
+        this.phone = phone;
+    }
 }
